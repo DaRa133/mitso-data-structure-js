@@ -16,6 +16,7 @@ module.exports = class Stack {
    arr = [];
   push(element) {
     this.arr.push(element);
+    //
   }
 
   pop() { return this.arr.pop();
