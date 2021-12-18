@@ -26,6 +26,7 @@ module.exports = class Queue {
       this.start = Node;
       this.final = Node;
       return this;
+      //
     }
 
     this.final.next = Node;
