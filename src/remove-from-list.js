@@ -20,7 +20,7 @@ const {ListNode} = require("../extensions");
  */
 
 module.exports = function removeKFromList(l,k) {
-
+//
   let base = new ListNode(null);
   let tempBase = base;
   let current = l;
